@@ -6,9 +6,9 @@
 #' @keywords median
 #' @export
 #' @examples
-#' median_function(seq(1:10))
+#' median_function2024(seq(1:10))
 
-median_function <- function(x) {
+median_function2024 <- function(x) {
   x_sorted <- sort(x)
   if (length(x) %% 2 == 1) {
     return(x_sorted[(length(x) + 1) / 2])
